@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scientific Calculator</title>
+        <link rel="stylesheet" href="style.css"/>
+		<link rel="shortcut icon" type="image/png" href="icon.png">
+    </head>
+    <body>
+        <div class="container">
+            <div class="view">
+                <input id="screen" type="text" placeholder="0">
+            </div>
+
+            <div class="buttons">
+                <div class="row">
+                    <button id="key" onclick="fact()">x!</button>
+                    <button id="key" class="button">(</button>
+                    <button id="key" class="button">)</button>
+                    <button id="key" class="button">%</button>
+                    <button id="key" onclick="screen.value = ''">AC</button>
+                    <button id="back" onclick="del()">⌫</button>
+                </div>
+
+                <div class="row">
+                    <button id="key" onclick="sin()">sin</button>
+                    <button id="key" onclick="pi()">π</button>
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <button id="key" class="button">÷</button>
+                </div>
+
+                <div class="row">
+                    <button id="key" onclick="cos()">cos</button>
+                    <button id="key" onclick="log()">log</button>
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button id="key" class="button">×</button>
+                </div>
+
+                <div class="row">
+                    <button id="key" onclick="tan()">tan</button>
+                    <button id="key" onclick="sqrt()">√</button>
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button id="key" class="button">-</button>
+                </div>
+
+                <div class="row">
+                    <button id="key" onclick="e()">e</button>
+                    <button id="key" onclick="square()">x<sup>2</sup></button>
+                    <button class="button">0</button>
+                    <button class="button">.</button>
+                    <button id="enter" onclick="screen.value = eval(screen.value)">=</button>
+                    <button id="key" class="button">+</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        var screen = document.querySelector('#screen');
+        var button = document.querySelectorAll('.button');
+
+        for(item of button){
+            item.addEventListener('click', (e)=>{
+                buttonTxt = e.target.innerText;
+                if (buttonTxt == '×'){
+                    buttonTxt='*';
+                }
+                if (buttonTxt == '÷'){
+                    buttonTxt='/';
+                }
+                screen.value += buttonTxt;
+            });
+        }
+
+        function sin(){
+            screen.value = Math.sin(screen.value);
+        }
+
+        function cos(){
+            screen.value = Math.cos(screen.value);
+        }
+
+        function tan(){
+            screen.value = Math.tan(screen.value);
+        }
+
+        function square(){
+            screen.value = Math.pow(screen.value, 2);
+        }
+
+        function sqrt(){
+            screen.value = Math.sqrt(screen.value, 2);
+        }
+
+        function log(){
+            screen.value = Math.log(screen.value);
+        }
+
+        function pi(){
+            screen.value = Math.PI;
+        }
+
+        function e(){
+            screen.value = Math.E;
+        }
+
+        function fact(){
+            var i, num, f;
+            f = 1;
+            num = screen.value;
+
+            for(i = 1; i <= num; i++){
+                f *= i;
+            }
+
+            i -= 1;
+            screen.value = f;
+        }
+
+        function del(){
+            screen.value = screen.value.substr(0, screen.value.length - 1);
+        }
+    </script>
+</html>
