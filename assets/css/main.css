@@ -3847,6 +3847,10 @@ input, select, textarea {
 				flex-grow: 0;
 			}
 
+			#main > .posts#individual {
+				justify-content: center;
+			}
+
 			#main > .posts > * {
 				width: 50%;
 			}
