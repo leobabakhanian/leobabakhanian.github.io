@@ -1,6 +1,5 @@
-#transfer-market {
+#project-page {
   margin-top: 100px;
-  margin-bottom: 50px;
   text-align: center;
   padding-left: 75px;
   padding-right: 75px;
@@ -22,7 +21,7 @@
   padding-bottom: 25px;
 }
 
-#transfer-market img {
+#project-page img {
   width: 100%;
   object-fit: contain;
 }
@@ -56,11 +55,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #transfer-market {
+  #project-page {
     padding-left: 15px;
     padding-right: 15px;
     /*border: 1px solid #282424;
     border-radius: 15px;*/
+    margin-top: 75px;
+    margin-bottom: 0px;
   }
 
   #first-row h1 {
@@ -78,15 +79,14 @@
   }
 
   #third-row p {
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 15px;
     justify-content: left;
   }
 
   #fourth-row p {
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 15px;
-    padding-bottom: 15px;
   }
 
   .image-first {

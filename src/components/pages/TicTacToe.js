@@ -10,7 +10,7 @@ import "./Projects.css";
 
 function TicTacToe() {
   return (
-    <Container id="transfer-market">
+    <Container id="project-page">
       <Row>
         <Col xs="auto">
           <Link to="/projects" id="back">

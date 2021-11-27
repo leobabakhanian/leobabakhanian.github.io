@@ -90,12 +90,12 @@ video {
 @media screen and (max-width: 768px) {
   .typewriter > h1 {
     font-size: 33px;
-    margin-top: -100px;
+    margin-top: -150px;
     height: 41px;
   }
 
   .hero-container > p {
     font-size: 30px;
-    margin-top: -40px;
+    margin-top: -90px;
   }
 }
