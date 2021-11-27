@@ -41,7 +41,7 @@ function GoogleClone() {
       <Row id="second-row">
         <Col xs="auto">
           <a
-            href="https://spotify-clone-7ee68.web.app/"
+            href="https://clone-ac992.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
