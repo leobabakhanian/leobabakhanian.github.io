@@ -18,7 +18,7 @@ import ScientificCalculator from "./components/pages/ScientificCalculator";
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
