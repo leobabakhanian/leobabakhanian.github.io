@@ -17,7 +17,7 @@ function ScientificCalculator() {
       <Row id="second-row">
         <Col xs="auto">
           <a
-            href="https://leobabakhanian.github.io/scientific-calculator/calculator"
+            href="https://scientific-calculator-ceda5.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >

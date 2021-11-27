@@ -59,9 +59,9 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/matapals">
-                      View
-                    </Button>
+                    <Link to="/matapals" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
                   </CardActions>
                 </Card>
               </Grid>
@@ -97,9 +97,9 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/tic-tac-toe">
-                      View
-                    </Button>
+                    <Link to="/tic-tac-toe" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
                   </CardActions>
                 </Card>
               </Grid>
@@ -134,9 +134,9 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/transfermarket">
-                      View
-                    </Button>
+                    <Link to="/transfermarket" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
                   </CardActions>
                 </Card>
               </Grid>
@@ -170,9 +170,9 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/apple-clone">
-                      View
-                    </Button>
+                    <Link to="/apple-clone" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
                   </CardActions>
                 </Card>
               </Grid>
@@ -207,9 +207,9 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/spotify-clone">
-                      View
-                    </Button>
+                    <Link to="spotify-clone" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
                   </CardActions>
                 </Card>
               </Grid>
@@ -244,9 +244,9 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/google-clone">
-                      View
-                    </Button>
+                    <Link to="google-clone" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
                   </CardActions>
                 </Card>
               </Grid>

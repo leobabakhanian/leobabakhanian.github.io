@@ -9,3 +9,7 @@
 .projects-container {
   padding-top: 35px;
 }
+
+#view {
+  text-decoration: inherit;
+}

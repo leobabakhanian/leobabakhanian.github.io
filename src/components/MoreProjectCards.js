@@ -56,9 +56,9 @@ function MoreProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/login-system">
-                      View
-                    </Button>
+                    <Link to="/login-system" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
                   </CardActions>
                 </Card>
               </Grid>
@@ -92,9 +92,9 @@ function MoreProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/scientific-calculator">
-                      View
-                    </Button>
+                    <Link to="/scientific-calculator" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
                   </CardActions>
                 </Card>
               </Grid>

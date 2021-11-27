@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import logo from "./images/logo-wide.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -28,12 +29,20 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link href="/projects">Projects</Nav.Link>
-              <Nav.Link className="nav-link" href="/more">
-                More
+              <Nav.Link>
+                <Link to="/projects" id="nav-btn">
+                  Projects
+                </Link>
               </Nav.Link>
-              <Nav.Link className="nav-link" href="/about">
-                About
+              <Nav.Link className="nav-link">
+                <Link to="/more" id="nav-btn">
+                  More
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="nav-link">
+                <Link to="/about" id="nav-btn">
+                  About
+                </Link>
               </Nav.Link>
               {/*
               <Nav.Link className="nav-link" href="/resume">

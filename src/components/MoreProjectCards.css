@@ -2,3 +2,7 @@
   padding-top: 35px;
   height: 100vh;
 }
+
+#view {
+  text-decoration: inherit;
+}
