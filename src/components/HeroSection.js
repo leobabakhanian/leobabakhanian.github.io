@@ -14,7 +14,7 @@ function HeroSection() {
       </div>
       <p>Check out my work.</p>
       <div className="hero-btns">
-        <Link to="/leobabakhanian.github.io/projects">
+        <Link to="/projects">
           <Button
             className="btns"
             buttonStyle="btn--outline"

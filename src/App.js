@@ -22,18 +22,58 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/projects" exact component={Projects} />
-          <Route path="/more" exact component={More} />
-          <Route path="/about" exact component={About} />
-          <Route path="/matapals" exact component={MataPals} />
-          <Route path="/tic-tac-toe" exact component={TicTacToe} />
-          <Route path="/transfermarket" exact component={TransferMarket} />
-          <Route path="/apple-clone" exact component={AppleClone} />
-          <Route path="/spotify-clone" exact component={SpotifyClone} />
-          <Route path="/google-clone" exact component={GoogleClone} />
-          <Route path="/login-system" exact component={LoginSystem} />
           <Route
-            path="/scientific-calculator"
+            path={process.env.PUBLIC_URL + "/projects"}
+            exact
+            component={Projects}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/more"}
+            exact
+            component={More}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/about"}
+            exact
+            component={About}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/matapals"}
+            exact
+            component={MataPals}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/tic-tac-toe"}
+            exact
+            component={TicTacToe}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/transfermarket"}
+            exact
+            component={TransferMarket}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/apple-clone"}
+            exact
+            component={AppleClone}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/spotify-clone"}
+            exact
+            component={SpotifyClone}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/google-clone"}
+            exact
+            component={GoogleClone}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/login-system"}
+            exact
+            component={LoginSystem}
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/scientific-calculator"}
             exact
             component={ScientificCalculator}
           />

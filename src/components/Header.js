@@ -30,17 +30,17 @@ function Header() {
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link>
-                <Link to="/leobabakhanian.github.io/projects" id="nav-btn">
+                <Link to="/projects" id="nav-btn">
                   Projects
                 </Link>
               </Nav.Link>
               <Nav.Link className="nav-link">
-                <Link to="/leobabakhanian.github.io/more" id="nav-btn">
+                <Link to="/more" id="nav-btn">
                   More
                 </Link>
               </Nav.Link>
               <Nav.Link className="nav-link">
-                <Link to="/leobabakhanian.github.io/about" id="nav-btn">
+                <Link to="/about" id="nav-btn">
                   About
                 </Link>
               </Nav.Link>

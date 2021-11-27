@@ -34,7 +34,7 @@ function MoreProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/leobabakhanian.github.io/login-system">
+                  <Link to="/login-system">
                     <CardMedia
                       component="img"
                       sx={{
@@ -56,7 +56,7 @@ function MoreProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Link to="/leobabakhanian.github.io/login-system" id="view">
+                    <Link to="/login-system" id="view">
                       <Button size="small">View</Button>
                     </Link>
                   </CardActions>
@@ -72,7 +72,7 @@ function MoreProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/leobabakhanian.github.io/scientific-calculator">
+                  <Link to="/scientific-calculator">
                     <CardMedia
                       component="img"
                       sx={{
@@ -92,10 +92,7 @@ function MoreProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Link
-                      to="/leobabakhanian.github.io/scientific-calculator"
-                      id="view"
-                    >
+                    <Link to="/scientific-calculator" id="view">
                       <Button size="small">View</Button>
                     </Link>
                   </CardActions>

@@ -38,7 +38,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/leobabakhanian.github.io/matapals">
+                  <Link to="/matapals">
                     <CardMedia
                       component="img"
                       sx={{
@@ -59,7 +59,7 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Link to="/leobabakhanian.github.io/matapals" id="view">
+                    <Link to="/matapals" id="view">
                       <Button size="small">View</Button>
                     </Link>
                   </CardActions>
@@ -75,7 +75,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/leobabakhanian.github.io/tic-tac-toe">
+                  <Link to="/tic-tac-toe">
                     <CardMedia
                       component="img"
                       sx={{
@@ -97,7 +97,7 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Link to="/leobabakhanian.github.io/tic-tac-toe" id="view">
+                    <Link to="/tic-tac-toe" id="view">
                       <Button size="small">View</Button>
                     </Link>
                   </CardActions>
@@ -113,7 +113,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/leobabakhanian.github.io/transfermarket">
+                  <Link to="/transfermarket">
                     <CardMedia
                       component="img"
                       sx={{
@@ -134,10 +134,7 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Link
-                      to="/leobabakhanian.github.io/transfermarket"
-                      id="view"
-                    >
+                    <Link to="/transfermarket" id="view">
                       <Button size="small">View</Button>
                     </Link>
                   </CardActions>
@@ -153,7 +150,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/leobabakhanian.github.io/apple-clone">
+                  <Link to="/apple-clone">
                     <CardMedia
                       component="img"
                       sx={{
@@ -173,7 +170,7 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Link to="/leobabakhanian.github.io/apple-clone" id="view">
+                    <Link to="/apple-clone" id="view">
                       <Button size="small">View</Button>
                     </Link>
                   </CardActions>
@@ -189,7 +186,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/leobabakhanian.github.io/spotify-clone">
+                  <Link to="/spotify-clone">
                     <CardMedia
                       component="img"
                       sx={{
@@ -226,7 +223,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/leobabakhanian.github.io/google-clone">
+                  <Link to="/google-clone">
                     <CardMedia
                       component="img"
                       sx={{
