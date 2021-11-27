@@ -3,11 +3,32 @@ import { Container, Row, Col } from "react-bootstrap";
 import tictactoe1 from "../images/tic-tac-toe_2.jpg";
 import tictactoe2 from "../images/tic-tac-toe_3.jpg";
 import { Button } from "../Button";
+import { Button as MUIButton } from "@mui/material";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import { Link } from "react-router-dom";
 import "./Projects.css";
 
 function TicTacToe() {
   return (
     <Container id="transfer-market">
+      <Row>
+        <Col xs="auto">
+          <Link to="/projects" id="back">
+            <MUIButton
+              variant="contained"
+              disableElevation
+              startIcon={<ArrowBackIcon />}
+              style={{
+                fontSize: "15px",
+                fontWeight: "700",
+                backgroundColor: "#8f8f8f",
+              }}
+            >
+              BACK
+            </MUIButton>
+          </Link>
+        </Col>
+      </Row>
       <Row className="justify-content-center" id="first-row">
         <Col>
           <h1>Tic-Tac-Toe Game</h1>

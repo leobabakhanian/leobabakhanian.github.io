@@ -3,10 +3,31 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Button } from "../Button";
 import "./Projects.css";
 import googleclone from "../images/google-clone_2.jpg";
+import { Button as MUIButton } from "@mui/material";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import { Link } from "react-router-dom";
 
 function GoogleClone() {
   return (
     <Container id="transfer-market">
+      <Row>
+        <Col xs="auto">
+          <Link to="/projects" id="back">
+            <MUIButton
+              variant="contained"
+              disableElevation
+              startIcon={<ArrowBackIcon />}
+              style={{
+                fontSize: "15px",
+                fontWeight: "700",
+                backgroundColor: "#8f8f8f",
+              }}
+            >
+              BACK
+            </MUIButton>
+          </Link>
+        </Col>
+      </Row>
       <Row className="justify-content-center" id="first-row">
         <Col>
           <h1>Google Clone</h1>
