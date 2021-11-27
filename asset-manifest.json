@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.65ff7556.chunk.css",
+    "main.js": "/static/js/main.4b729bd7.chunk.js",
+    "main.js.map": "/static/js/main.4b729bd7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4ba1596e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4ba1596e.js.map",
+    "static/js/2.df6401a2.chunk.js": "/static/js/2.df6401a2.chunk.js",
+    "static/js/2.df6401a2.chunk.js.map": "/static/js/2.df6401a2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.47f4cd98815171f7d19dddee7c93d329.js": "/precache-manifest.47f4cd98815171f7d19dddee7c93d329.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.65ff7556.chunk.css.map": "/static/css/main.65ff7556.chunk.css.map",
+    "static/js/2.df6401a2.chunk.js.LICENSE.txt": "/static/js/2.df6401a2.chunk.js.LICENSE.txt",
+    "static/media/apple-clone_1.jpg": "/static/media/apple-clone_1.a8fe5e42.jpg",
+    "static/media/apple-clone_2.jpg": "/static/media/apple-clone_2.1dd2d6f9.jpg",
+    "static/media/bayc_barca.jpg": "/static/media/bayc_barca.979098d9.jpg",
+    "static/media/calculator_1.jpg": "/static/media/calculator_1.824e22b3.jpg",
+    "static/media/calculator_2.jpg": "/static/media/calculator_2.ea89da0f.jpg",
+    "static/media/google-clone_1.jpg": "/static/media/google-clone_1.b3f491ac.jpg",
+    "static/media/google-clone_2.jpg": "/static/media/google-clone_2.481bfa32.jpg",
+    "static/media/login_1.jpg": "/static/media/login_1.d8e03f15.jpg",
+    "static/media/login_2.jpg": "/static/media/login_2.0516c96d.jpg",
+    "static/media/login_3.jpg": "/static/media/login_3.13d71ab9.jpg",
+    "static/media/logo-wide.png": "/static/media/logo-wide.b01a281e.png",
+    "static/media/spotify-clone_1.jpg": "/static/media/spotify-clone_1.1eff8dca.jpg",
+    "static/media/spotify-clone_2.jpg": "/static/media/spotify-clone_2.90ad4c8a.jpg",
+    "static/media/tic-tac-toe_1.jpg": "/static/media/tic-tac-toe_1.b4df9f9a.jpg",
+    "static/media/tic-tac-toe_2.jpg": "/static/media/tic-tac-toe_2.5a3a77ae.jpg",
+    "static/media/tic-tac-toe_3.jpg": "/static/media/tic-tac-toe_3.bd033137.jpg",
+    "static/media/transfermarket_1.jpg": "/static/media/transfermarket_1.9a2d7fb0.jpg",
+    "static/media/transfermarket_2.jpg": "/static/media/transfermarket_2.ba0ebda7.jpg",
+    "static/media/under-construction.jpg": "/static/media/under-construction.354181aa.jpg",
+    "static/media/united-states.png": "/static/media/united-states.60b5c13f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ba1596e.js",
+    "static/js/2.df6401a2.chunk.js",
+    "static/css/main.65ff7556.chunk.css",
+    "static/js/main.4b729bd7.chunk.js"
+  ]
+}
