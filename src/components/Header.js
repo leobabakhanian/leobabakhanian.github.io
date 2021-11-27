@@ -29,17 +29,17 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link>
+              <Nav.Link id="nav-disable">
                 <Link to="/projects" id="nav-btn">
                   Projects
                 </Link>
               </Nav.Link>
-              <Nav.Link className="nav-link">
+              <Nav.Link className="nav-link" id="nav-disable">
                 <Link to="/more" id="nav-btn">
                   More
                 </Link>
               </Nav.Link>
-              <Nav.Link className="nav-link">
+              <Nav.Link className="nav-link" id="nav-disable">
                 <Link to="/about" id="nav-btn">
                   About
                 </Link>
