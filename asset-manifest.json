@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.2e50d203.chunk.css",
-    "main.js": "/static/js/main.3c94e048.chunk.js",
-    "main.js.map": "/static/js/main.3c94e048.chunk.js.map",
+    "main.js": "/static/js/main.9f66e42f.chunk.js",
+    "main.js.map": "/static/js/main.9f66e42f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba1596e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba1596e.js.map",
-    "static/js/2.074698bb.chunk.js": "/static/js/2.074698bb.chunk.js",
-    "static/js/2.074698bb.chunk.js.map": "/static/js/2.074698bb.chunk.js.map",
+    "static/js/2.d2c50baa.chunk.js": "/static/js/2.d2c50baa.chunk.js",
+    "static/js/2.d2c50baa.chunk.js.map": "/static/js/2.d2c50baa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.44f9de1b96e106daee89eea5f1b47fa6.js": "/precache-manifest.44f9de1b96e106daee89eea5f1b47fa6.js",
+    "precache-manifest.aed83d201e2d360627051eab1ae38f59.js": "/precache-manifest.aed83d201e2d360627051eab1ae38f59.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2e50d203.chunk.css.map": "/static/css/main.2e50d203.chunk.css.map",
-    "static/js/2.074698bb.chunk.js.LICENSE.txt": "/static/js/2.074698bb.chunk.js.LICENSE.txt",
+    "static/js/2.d2c50baa.chunk.js.LICENSE.txt": "/static/js/2.d2c50baa.chunk.js.LICENSE.txt",
     "static/media/apple-clone_1.jpg": "/static/media/apple-clone_1.a8fe5e42.jpg",
     "static/media/apple-clone_2.jpg": "/static/media/apple-clone_2.1dd2d6f9.jpg",
     "static/media/bayc_barca.jpg": "/static/media/bayc_barca.979098d9.jpg",
@@ -23,6 +23,8 @@
     "static/media/login_2.jpg": "/static/media/login_2.0516c96d.jpg",
     "static/media/login_3.jpg": "/static/media/login_3.13d71ab9.jpg",
     "static/media/logo-wide.png": "/static/media/logo-wide.b01a281e.png",
+    "static/media/message-board_1.jpg": "/static/media/message-board_1.a00cb773.jpg",
+    "static/media/message-board_2.jpg": "/static/media/message-board_2.963e9160.jpg",
     "static/media/spotify-clone_1.jpg": "/static/media/spotify-clone_1.1eff8dca.jpg",
     "static/media/spotify-clone_2.jpg": "/static/media/spotify-clone_2.90ad4c8a.jpg",
     "static/media/tic-tac-toe_1.jpg": "/static/media/tic-tac-toe_1.b4df9f9a.jpg",
@@ -35,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4ba1596e.js",
-    "static/js/2.074698bb.chunk.js",
+    "static/js/2.d2c50baa.chunk.js",
     "static/css/main.2e50d203.chunk.css",
-    "static/js/main.3c94e048.chunk.js"
+    "static/js/main.9f66e42f.chunk.js"
   ]
 }
