@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Button } from "../Button";
 import "./Projects.css";
-import matapals from "../images/under-construction.jpg";
+import messageBoard from "../images/message-board_2.jpg";
 import { Button as MUIButton } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
 
-function MataPals() {
+function MessageBoard() {
   return (
     <Container id="project-page">
       <Row>
@@ -30,15 +30,18 @@ function MataPals() {
       </Row>
       <Row className="justify-content-center" id="first-row">
         <Col>
-          <h1>MataPals (In progress)</h1>
-          <p>A web app for CSUN students to connect with each other.</p>
-          <img src={matapals} alt="" />
+          <h1>Message Board</h1>
+          <p>
+            A full stack MERN application that allows users to make posts to a
+            community message board.
+          </p>
+          <img src={messageBoard} alt="" />
         </Col>
       </Row>
       <Row id="second-row">
         <Col xs="auto">
           <a
-            href="https://matapals-addingevent.bagdadm6516.repl.co/"
+            href="https://message-board-7ecff.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,11 +56,7 @@ function MataPals() {
           </a>
         </Col>
         <Col xs="auto">
-          <a
-            href="https://github.com/leobabakhanian/matapals"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="#" target="_blank" rel="noopener noreferrer">
             <Button
               className="btns"
               buttonStyle="btn--outline"
@@ -71,24 +70,26 @@ function MataPals() {
       <Row id="third-row">
         <Col>
           <p>
-            This project was accomplished with a team of five other students for
-            our senior year Capstone Project.
-            <br />
-            <br />
-            MataPals is a social media app involving on-campus groups and events
-            at California State University Northridge. The MataPals app allows
-            users to find and connect with other students using a matching
-            algorithm based on interests and classes.
+            In this project, I aimed to learn how to make a full stack MERN web
+            app. I used React to make the front end and MongoDB as the connected
+            database. I then created an intuitive UI with Material UI and built
+            features such as creating, liking, editing, and deleting posts. I
+            then built a login system in order to allow users to only
+            edit/delete their own posts and not allow users to like a post more
+            than once.
           </p>
         </Col>
       </Row>
       <Row id="fourth-row">
         <Col>
-          <p>Technology used: TBD</p>
+          <p>
+            Technology used: HTML, CSS, JavaScript, NPM, Express, React,
+            MongoDB, Firebase, Heroku, MUI
+          </p>
         </Col>
       </Row>
     </Container>
   );
 }
 
-export default MataPals;
+export default MessageBoard;

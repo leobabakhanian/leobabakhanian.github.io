@@ -14,6 +14,7 @@ import SpotifyClone from "./components/pages/SpotifyClone";
 import GoogleClone from "./components/pages/GoogleClone";
 import LoginSystem from "./components/pages/LoginSystem";
 import ScientificCalculator from "./components/pages/ScientificCalculator";
+import MessageBoard from "./components/pages/MessageBoard";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/matapals" exact component={MataPals} />
           <Route path="/tic-tac-toe" exact component={TicTacToe} />
           <Route path="/transfermarket" exact component={TransferMarket} />
+          <Route path="/message-board" exact component={MessageBoard} />
           <Route path="/apple-clone" exact component={AppleClone} />
           <Route path="/spotify-clone" exact component={SpotifyClone} />
           <Route path="/google-clone" exact component={GoogleClone} />

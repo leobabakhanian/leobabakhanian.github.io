@@ -12,6 +12,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Link } from "react-router-dom";
 import loginsystem from "./images/login_1.jpg";
 import calculator from "./images/calculator_1.jpg";
+import appleclone from "./images/apple-clone_1.jpg";
 
 const theme = createTheme();
 
@@ -91,6 +92,42 @@ function MoreProjectCards() {
                   </CardContent>
                   <CardActions>
                     <Link to="/scientific-calculator" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
+                  </CardActions>
+                </Card>
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <Card
+                  sx={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    background: "#282424",
+                    color: "#f0f2f5",
+                  }}
+                >
+                  <Link to="/apple-clone">
+                    <CardMedia
+                      component="img"
+                      sx={{
+                        minHeight: 175,
+                        maxHeight: 175,
+                      }}
+                      image={appleclone}
+                      alt=""
+                    />
+                  </Link>
+                  <CardContent sx={{ flexGrow: 1 }}>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Apple Clone
+                    </Typography>
+                    <Typography>
+                      A front end clone of Apple.com built with React.
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Link to="/apple-clone" id="view">
                       <Button size="small">View</Button>
                     </Link>
                   </CardActions>

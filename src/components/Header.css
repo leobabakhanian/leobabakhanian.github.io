@@ -27,5 +27,5 @@
 }
 
 #nav-disable {
-  cursor: default;
+  cursor: default !important;
 }

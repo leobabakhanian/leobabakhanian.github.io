@@ -1,8 +1,6 @@
 #project-page {
   margin-top: 100px;
   text-align: center;
-  padding-left: 75px;
-  padding-right: 75px;
   /*border: 1px solid #282424;
   border-radius: 15px;*/
 }
@@ -24,6 +22,7 @@
 #project-page img {
   width: 100%;
   object-fit: contain;
+  border: 1px solid #282424;
 }
 
 #second-row {
@@ -47,7 +46,7 @@
 }
 
 .image-first {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 #back {
@@ -56,8 +55,6 @@
 
 @media only screen and (max-width: 768px) {
   #project-page {
-    padding-left: 15px;
-    padding-right: 15px;
     /*border: 1px solid #282424;
     border-radius: 15px;*/
     margin-top: 75px;

@@ -11,10 +11,10 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Link } from "react-router-dom";
 import tictactoe from "./images/tic-tac-toe_1.jpg";
 import matapals from "./images/under-construction.jpg";
-import appleclone from "./images/apple-clone_1.jpg";
 import transfermarket from "./images/transfermarket_2.jpg";
 import spotifyclone from "./images/spotify-clone_2.jpg";
 import googleclone from "./images/google-clone_1.jpg";
+import messageBoard from "./images/message-board_1.jpg";
 import "./ProjectCards.css";
 
 const theme = createTheme();
@@ -111,6 +111,43 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
+                  <Link to="/message-board">
+                    <CardMedia
+                      component="img"
+                      sx={{
+                        minHeight: 175,
+                        maxHeight: 175,
+                      }}
+                      image={messageBoard}
+                      alt=""
+                    />
+                  </Link>
+                  <CardContent sx={{ flexGrow: 1 }}>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Message Board
+                    </Typography>
+                    <Typography>
+                      A full stack MERN web application that allows users to
+                      post messages to a board and interact with them.
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Link to="/message-board" id="view">
+                      <Button size="small">View</Button>
+                    </Link>
+                  </CardActions>
+                </Card>
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <Card
+                  sx={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    background: "#282424",
+                    color: "#f0f2f5",
+                  }}
+                >
                   <Link to="/transfermarket">
                     <CardMedia
                       component="img"
@@ -133,42 +170,6 @@ export default function ProjectCards() {
                   </CardContent>
                   <CardActions>
                     <Link to="/transfermarket" id="view">
-                      <Button size="small">View</Button>
-                    </Link>
-                  </CardActions>
-                </Card>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Card
-                  sx={{
-                    height: "100%",
-                    display: "flex",
-                    flexDirection: "column",
-                    background: "#282424",
-                    color: "#f0f2f5",
-                  }}
-                >
-                  <Link to="/apple-clone">
-                    <CardMedia
-                      component="img"
-                      sx={{
-                        minHeight: 175,
-                        maxHeight: 175,
-                      }}
-                      image={appleclone}
-                      alt=""
-                    />
-                  </Link>
-                  <CardContent sx={{ flexGrow: 1 }}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      Apple Clone
-                    </Typography>
-                    <Typography>
-                      A clone of Apple.com built with React.
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Link to="/apple-clone" id="view">
                       <Button size="small">View</Button>
                     </Link>
                   </CardActions>
