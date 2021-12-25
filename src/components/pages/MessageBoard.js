@@ -56,7 +56,11 @@ function MessageBoard() {
           </a>
         </Col>
         <Col xs="auto">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/leobabakhanian/message-board"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               className="btns"
               buttonStyle="btn--outline"
