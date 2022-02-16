@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.2e50d203.chunk.css",
-    "main.js": "/static/js/main.580fbd7c.chunk.js",
-    "main.js.map": "/static/js/main.580fbd7c.chunk.js.map",
+    "main.js": "/static/js/main.1a78dbea.chunk.js",
+    "main.js.map": "/static/js/main.1a78dbea.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba1596e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba1596e.js.map",
-    "static/js/2.58b155b0.chunk.js": "/static/js/2.58b155b0.chunk.js",
-    "static/js/2.58b155b0.chunk.js.map": "/static/js/2.58b155b0.chunk.js.map",
+    "static/js/2.f7e3fc95.chunk.js": "/static/js/2.f7e3fc95.chunk.js",
+    "static/js/2.f7e3fc95.chunk.js.map": "/static/js/2.f7e3fc95.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bee785c997a2d3fd52ba6d64606064ae.js": "/precache-manifest.bee785c997a2d3fd52ba6d64606064ae.js",
+    "precache-manifest.ec390fd75ec005059c92a750bcd6cd54.js": "/precache-manifest.ec390fd75ec005059c92a750bcd6cd54.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2e50d203.chunk.css.map": "/static/css/main.2e50d203.chunk.css.map",
-    "static/js/2.58b155b0.chunk.js.LICENSE.txt": "/static/js/2.58b155b0.chunk.js.LICENSE.txt",
+    "static/js/2.f7e3fc95.chunk.js.LICENSE.txt": "/static/js/2.f7e3fc95.chunk.js.LICENSE.txt",
     "static/media/apple-clone_1.jpg": "/static/media/apple-clone_1.a8fe5e42.jpg",
     "static/media/apple-clone_2.jpg": "/static/media/apple-clone_2.1dd2d6f9.jpg",
     "static/media/bayc_barca.jpg": "/static/media/bayc_barca.979098d9.jpg",
@@ -30,6 +30,7 @@
     "static/media/tic-tac-toe_1.jpg": "/static/media/tic-tac-toe_1.b4df9f9a.jpg",
     "static/media/tic-tac-toe_2.jpg": "/static/media/tic-tac-toe_2.5a3a77ae.jpg",
     "static/media/tic-tac-toe_3.jpg": "/static/media/tic-tac-toe_3.bd033137.jpg",
+    "static/media/todo_1.jpg": "/static/media/todo_1.1f42963c.jpg",
     "static/media/transfermarket_1.jpg": "/static/media/transfermarket_1.9a2d7fb0.jpg",
     "static/media/transfermarket_2.jpg": "/static/media/transfermarket_2.ba0ebda7.jpg",
     "static/media/under-construction.jpg": "/static/media/under-construction.354181aa.jpg",
@@ -39,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4ba1596e.js",
-    "static/js/2.58b155b0.chunk.js",
+    "static/js/2.f7e3fc95.chunk.js",
     "static/css/main.2e50d203.chunk.css",
-    "static/js/main.580fbd7c.chunk.js"
+    "static/js/main.1a78dbea.chunk.js"
   ]
 }
