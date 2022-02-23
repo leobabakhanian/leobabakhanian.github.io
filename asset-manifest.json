@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.cc7c145a.chunk.css",
-    "main.js": "/static/js/main.84b51e34.chunk.js",
-    "main.js.map": "/static/js/main.84b51e34.chunk.js.map",
+    "main.js": "/static/js/main.3bdfeb0b.chunk.js",
+    "main.js.map": "/static/js/main.3bdfeb0b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba1596e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba1596e.js.map",
-    "static/js/2.3978e4d1.chunk.js": "/static/js/2.3978e4d1.chunk.js",
-    "static/js/2.3978e4d1.chunk.js.map": "/static/js/2.3978e4d1.chunk.js.map",
+    "static/js/2.1ea63e8d.chunk.js": "/static/js/2.1ea63e8d.chunk.js",
+    "static/js/2.1ea63e8d.chunk.js.map": "/static/js/2.1ea63e8d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f4ec60c8f4b6595bb945c29da897ead4.js": "/precache-manifest.f4ec60c8f4b6595bb945c29da897ead4.js",
+    "precache-manifest.f03883161fe21e68a391a588d6b0e112.js": "/precache-manifest.f03883161fe21e68a391a588d6b0e112.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.cc7c145a.chunk.css.map": "/static/css/main.cc7c145a.chunk.css.map",
-    "static/js/2.3978e4d1.chunk.js.LICENSE.txt": "/static/js/2.3978e4d1.chunk.js.LICENSE.txt",
+    "static/js/2.1ea63e8d.chunk.js.LICENSE.txt": "/static/js/2.1ea63e8d.chunk.js.LICENSE.txt",
     "static/media/apple-clone_1.jpg": "/static/media/apple-clone_1.a8fe5e42.jpg",
     "static/media/apple-clone_2.jpg": "/static/media/apple-clone_2.1dd2d6f9.jpg",
     "static/media/bayc_barca.jpg": "/static/media/bayc_barca.979098d9.jpg",
@@ -23,6 +23,8 @@
     "static/media/login_2.jpg": "/static/media/login_2.0516c96d.jpg",
     "static/media/login_3.jpg": "/static/media/login_3.13d71ab9.jpg",
     "static/media/logo-wide.png": "/static/media/logo-wide.b01a281e.png",
+    "static/media/matapals_1.jpg": "/static/media/matapals_1.052f04ec.jpg",
+    "static/media/matapals_2.jpg": "/static/media/matapals_2.ee885a4a.jpg",
     "static/media/message-board_1.jpg": "/static/media/message-board_1.a00cb773.jpg",
     "static/media/message-board_2.jpg": "/static/media/message-board_2.963e9160.jpg",
     "static/media/spotify-clone_1.jpg": "/static/media/spotify-clone_1.1eff8dca.jpg",
@@ -33,15 +35,14 @@
     "static/media/todo_1.jpg": "/static/media/todo_1.1f42963c.jpg",
     "static/media/transfermarket_1.jpg": "/static/media/transfermarket_1.9a2d7fb0.jpg",
     "static/media/transfermarket_2.jpg": "/static/media/transfermarket_2.ba0ebda7.jpg",
-    "static/media/under-construction.jpg": "/static/media/under-construction.354181aa.jpg",
     "static/media/united-states.png": "/static/media/united-states.60b5c13f.png",
     "static/media/web3_1.jpg": "/static/media/web3_1.1a00b007.jpg",
     "static/media/web3_2.jpg": "/static/media/web3_2.0153068b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4ba1596e.js",
-    "static/js/2.3978e4d1.chunk.js",
+    "static/js/2.1ea63e8d.chunk.js",
     "static/css/main.cc7c145a.chunk.css",
-    "static/js/main.84b51e34.chunk.js"
+    "static/js/main.3bdfeb0b.chunk.js"
   ]
 }
