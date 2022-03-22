@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import tictactoe1 from "../images/tic-tac-toe_2.jpg";
-import tictactoe2 from "../images/tic-tac-toe_3.jpg";
+import "./Projects.css";
 import { Button } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
-import "./Projects.css";
+import web3_1 from "../images/web3_1.jpg";
+import web3_2 from "../images/web3_2.jpg";
 
-function TicTacToe() {
+function LCrypt() {
   return (
     <Container id="project-page">
       <Row>
@@ -30,10 +30,10 @@ function TicTacToe() {
       </Row>
       <Row className="justify-content-center" id="first-row">
         <Col>
-          <h1>Tic-Tac-Toe Game</h1>
-          <p>A tic-tac-toe game with four themes and two game modes.</p>
-          <img src={tictactoe1} alt="" className="image-first" />
-          <img src={tictactoe2} alt="" />
+          <h1>LCrypt</h1>
+          <p>A Web 3.0 website that allows users to send & receive Ethereum.</p>
+          <img src={web3_1} alt="" className="image-first" />
+          <img src={web3_2} alt="" />
         </Col>
       </Row>
       <Row id="second-row">
@@ -41,8 +41,20 @@ function TicTacToe() {
           <Button
             variant="outlined"
             disableElevation
+            id="live-button"
+            href="https://lcrypt.web.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LIVE CODE
+          </Button>
+        </Col>
+        <Col xs="auto">
+          <Button
+            variant="outlined"
+            disableElevation
             id="git-button"
-            href="https://github.com/leobabakhanian/TicTacToeGUI"
+            href="https://github.com/leobabakhanian/web3.0"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,25 +65,24 @@ function TicTacToe() {
       <Row id="third-row">
         <Col>
           <p>
-            This project involved creating the classic game of tic-tac-toe with
-            a visually appealing UI and set of themes. The user can select a
-            theme from the four: an ice cream theme, space theme, beach theme,
-            or nature theme. The tic-tac-toe game also features a scoreboard and
-            various sounds that play depending on the buttons clicked or outcome
-            of the games. The game can be played against another user on the
-            same machine or against the computer. In the "vs player" mode, the
-            order of play is determined by a random coin flip on the first turn
-            and the turns are then alternated.
+            This project was my first introduction into Web 3.0 development. I
+            learned how to make a smart contract for Ethereum transfers and how
+            to connect a user's wallet to a website using MetaMask. I was then
+            able to display previous transactions by other users including the
+            amount, message, and gif they sent with the transaction.
           </p>
         </Col>
       </Row>
       <Row id="fourth-row">
         <Col>
-          <p>Technology used: Java, JavaFX</p>
+          <p>
+            Technology used: HTML, CSS, JavaScript, React, Solidity, Tailwind
+            CSS, GIPHY API, Hardhat, Ropsten Test Network, Alchemy, Firebase
+          </p>
         </Col>
       </Row>
     </Container>
   );
 }
 
-export default TicTacToe;
+export default LCrypt;

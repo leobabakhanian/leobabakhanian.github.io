@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Button } from "../Button";
 import "./Projects.css";
 import login1 from "../images/login_2.jpg";
 import login2 from "../images/login_3.jpg";
-import { Button as MUIButton } from "@mui/material";
+import { Button } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
 
@@ -14,7 +13,7 @@ function LoginSystem() {
       <Row>
         <Col xs="auto">
           <Link to="/more" id="back">
-            <MUIButton
+            <Button
               variant="contained"
               disableElevation
               startIcon={<ArrowBackIcon />}
@@ -25,7 +24,7 @@ function LoginSystem() {
               }}
             >
               BACK
-            </MUIButton>
+            </Button>
           </Link>
         </Col>
       </Row>
@@ -39,19 +38,16 @@ function LoginSystem() {
       </Row>
       <Row id="second-row">
         <Col xs="auto">
-          <a
+          <Button
+            variant="outlined"
+            disableElevation
+            id="git-button"
             href="https://github.com/leobabakhanian/LoginSystem"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button
-              className="btns"
-              buttonStyle="btn--outline"
-              buttonSize="btn--large"
-            >
-              GITHUB LINK
-            </Button>
-          </a>
+            GITHUB LINK
+          </Button>
         </Col>
       </Row>
       <Row id="third-row">

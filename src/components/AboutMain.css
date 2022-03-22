@@ -1,25 +1,62 @@
 #about-main {
   margin-top: 100px;
   margin-bottom: 35px;
-  border: 1px solid #282424;
   border-radius: 10px;
+  width: 30%;
+  background-color: #282424;
 }
 
 #about-main p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   color: #f0f2f5;
-  padding: 25px 35px 15px;
+  padding: 20px 15px 5px;
+}
+
+#about-bio {
+  padding-left: 6%;
+  padding-right: 6%;
+  color: #f0f2f5;
+}
+
+#bio-first {
+  padding-top: 5px;
+}
+
+#bio-head {
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 4px;
+  text-decoration-color: rgb(65, 70, 70);
+  padding-bottom: 10px;
+}
+
+#about-bio h5 {
+  font-weight: 400;
+}
+
+#bio-date {
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+.about-hobbies {
+  padding-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
   #about-main {
     margin-top: 75px;
     margin-bottom: 30px;
+    width: 75%;
   }
 
   #about-main p {
-    font-size: 15px;
-    text-align: justify;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #about-bio h5 {
+    font-size: 18px;
   }
 }

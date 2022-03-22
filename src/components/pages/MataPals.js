@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Button } from "../Button";
 import "./Projects.css";
-import matapals from "../images/under-construction.jpg";
-import { Button as MUIButton } from "@mui/material";
+import matapals from "../images/matapals_2.jpg";
+import { Button } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
+import "./Buttons.css";
 
 function MataPals() {
   return (
@@ -13,7 +13,7 @@ function MataPals() {
       <Row>
         <Col xs="auto">
           <Link to="/projects" id="back">
-            <MUIButton
+            <Button
               variant="contained"
               disableElevation
               startIcon={<ArrowBackIcon />}
@@ -24,7 +24,7 @@ function MataPals() {
               }}
             >
               BACK
-            </MUIButton>
+            </Button>
           </Link>
         </Col>
       </Row>
@@ -37,42 +37,23 @@ function MataPals() {
       </Row>
       <Row id="second-row">
         <Col xs="auto">
-          <a
-            href="https://matapals-addingevent.bagdadm6516.repl.co/"
+          <Button
+            variant="outlined"
+            disableElevation
+            id="live-button"
+            href="https://matapals-addingevent--bagdadm6516.repl.co/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button
-              className="btns"
-              buttonStyle="btn--primary"
-              buttonSize="btn--large"
-              id="button-first"
-            >
-              LIVE CODE
-            </Button>
-          </a>
-        </Col>
-        <Col xs="auto">
-          <a
-            href="https://github.com/leobabakhanian/matapals"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button
-              className="btns"
-              buttonStyle="btn--outline"
-              buttonSize="btn--large"
-            >
-              GITHUB LINK
-            </Button>
-          </a>
+            LIVE CODE
+          </Button>
         </Col>
       </Row>
       <Row id="third-row">
         <Col>
           <p>
-            This project was accomplished with a team of five other students for
-            our senior year Capstone Project.
+            This project was accomplished with a team of six students, including
+            myself, for our senior year Capstone Project.
             <br />
             <br />
             MataPals is a social media app involving on-campus groups and events
@@ -84,7 +65,10 @@ function MataPals() {
       </Row>
       <Row id="fourth-row">
         <Col>
-          <p>Technology used: TBD</p>
+          <p>
+            Technology used: HTML, BootStrap, AJAX, MongoDB, Repil, Express,
+            Bcrypt, JWT
+          </p>
         </Col>
       </Row>
     </Container>

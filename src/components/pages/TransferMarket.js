@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Projects.css";
 import transfermarket from "../images/transfermarket_1.jpg";
-import { Button } from "../Button";
-import { Button as MUIButton } from "@mui/material";
+import { Button } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
 
@@ -13,7 +12,7 @@ function TransferMarket() {
       <Row>
         <Col xs="auto">
           <Link to="/projects" id="back">
-            <MUIButton
+            <Button
               variant="contained"
               disableElevation
               startIcon={<ArrowBackIcon />}
@@ -24,7 +23,7 @@ function TransferMarket() {
               }}
             >
               BACK
-            </MUIButton>
+            </Button>
           </Link>
         </Col>
       </Row>
@@ -40,19 +39,16 @@ function TransferMarket() {
       </Row>
       <Row id="second-row">
         <Col xs="auto">
-          <a
+          <Button
+            variant="outlined"
+            disableElevation
+            id="git-button"
             href="https://github.com/leobabakhanian/TransferMarket"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button
-              className="btns"
-              buttonStyle="btn--outline"
-              buttonSize="btn--large"
-            >
-              GITHUB LINK
-            </Button>
-          </a>
+            GITHUB LINK
+          </Button>
         </Col>
       </Row>
       <Row id="third-row">
@@ -68,8 +64,8 @@ function TransferMarket() {
       <Row id="fourth-row">
         <Col>
           <p>
-            Technology used: HTML, CSS, JavaScript, NPM, Node.js, Express,
-            MySQL, Puppeteer
+            Technology used: HTML, CSS, JavaScript, Node.js, Express, MySQL,
+            Puppeteer
           </p>
         </Col>
       </Row>

@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Button } from "../Button";
 import "./Projects.css";
 import calculator from "../images/calculator_2.jpg";
-import { Button as MUIButton } from "@mui/material";
+import { Button } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
 
@@ -13,7 +12,7 @@ function ScientificCalculator() {
       <Row>
         <Col xs="auto">
           <Link to="/more" id="back">
-            <MUIButton
+            <Button
               variant="contained"
               disableElevation
               startIcon={<ArrowBackIcon />}
@@ -24,7 +23,7 @@ function ScientificCalculator() {
               }}
             >
               BACK
-            </MUIButton>
+            </Button>
           </Link>
         </Col>
       </Row>
@@ -37,35 +36,28 @@ function ScientificCalculator() {
       </Row>
       <Row id="second-row">
         <Col xs="auto">
-          <a
+          <Button
+            variant="outlined"
+            disableElevation
+            id="live-button"
             href="https://scientific-calculator-ceda5.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button
-              className="btns"
-              buttonStyle="btn--primary"
-              buttonSize="btn--large"
-              id="button-first"
-            >
-              LIVE CODE
-            </Button>
-          </a>
+            LIVE CODE
+          </Button>
         </Col>
         <Col xs="auto">
-          <a
+          <Button
+            variant="outlined"
+            disableElevation
+            id="git-button"
             href="https://github.com/leobabakhanian/scientific-calculator"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button
-              className="btns"
-              buttonStyle="btn--outline"
-              buttonSize="btn--large"
-            >
-              GITHUB LINK
-            </Button>
-          </a>
+            GITHUB LINK
+          </Button>
         </Col>
       </Row>
       <Row id="third-row">

@@ -1,27 +1,72 @@
 import React from "react";
 import "./AboutMain.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { ProfileCard } from "./ProfileCard";
 
 function AboutMain() {
   return (
-    <Container id="about-main">
-      <Row className="justify-content-center">
-        <Col xs="auto">
-          <p>
-            Hi, my name is Leo Babakhanian. I am 23-year-old Armenian-American
-            developer and I hold a Bachelor's Degree in Computer Science. From
-            an early age, I have always been passionate about technology and I
-            became obssessed with programming during high school. I began with
-            modding my video games on my computer and slowly began learning bits
-            of Java and C++. Today, I pour hours of my time daily to learn
-            technologies such as React and harden my data structure skills on
-            websites such as leetcode.com. As I progress through this journey, I
-            pride myself on being able to quickly pick up and adapt to new
-            languages and skills.
-          </p>
-        </Col>
-      </Row>
-    </Container>
+    <>
+      <Container id="about-main">
+        <Row className="justify-content-center">
+          <Col xs="auto">
+            <p>Hello! I'm a full stack developer based in Glendale, CA.</p>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <ProfileCard />
+      </Container>
+      <Container id="about-bio">
+        <Row>
+          <Col xs="auto">
+            <h4 id="bio-head">Bio</h4>
+          </Col>
+        </Row>
+        <Row id="bio-first">
+          <Col xs="auto">
+            <h5>
+              <span id="bio-date">1998</span> Born in Burbank, CA
+            </h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="auto">
+            <h5>
+              <span id="bio-date">2016</span> Earned high school diploma at
+              Clark Magnet HS
+            </h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="auto">
+            <h5>
+              <span id="bio-date">2022</span> Completed Bachelor's Degree in
+              Computer Science at Cal State Northridge
+            </h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="auto">
+            <h5>
+              <span id="bio-date">Present</span> Working on personal projects
+              and looking for first job
+            </h5>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="about-hobbies" id="about-bio">
+        <Row>
+          <Col xs="auto">
+            <h4 id="bio-head">I ♥</h4>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="auto">
+            <h5>Football ⚽, Music 🎵, Cryptocurrency ₿, Movies 📽️</h5>
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
 

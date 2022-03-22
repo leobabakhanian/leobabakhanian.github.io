@@ -1,18 +1,24 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import { Divider, Avatar, Grid, Tooltip, IconButton } from "@mui/material";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
+import {
+  Divider,
+  Avatar,
+  Grid,
+  Tooltip,
+  IconButton,
+  Box,
+  Card,
+  CardContent,
+  Typography,
+} from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import USA from "./images/icons/united-states.png";
 import LeoAvatar from "./images/icons/bayc_barca.jpg";
 import "./ProfileCard.css";
 
 const card = (
-  <React.Fragment>
-    <CardContent sx={{ minHeight: 245 }}>
+  <Card id="card">
+    <CardContent>
       <Grid container>
         <Tooltip title="Glendale, CA" placement="right-end">
           <Grid item>
@@ -48,16 +54,12 @@ const card = (
       >
         Leo Babakhanian
       </Typography>
+      <Divider id="divider" sx={{ color: "#f0f2f5" }} />
       <Typography variant="body2" id="card__contact">
         <a href="mailto:babakhanianleo@gmail.com">babakhanianleo@gmail.com</a>
       </Typography>
-      <Divider id="divider" sx={{ color: "#f0f2f5" }} />
-      <Typography variant="body2" id="card__bio">
-        I love football ⚽ and FC Barcelona! I'm also obsessed with anything
-        crypto including blockchain technology.
-      </Typography>
     </CardContent>
-  </React.Fragment>
+  </Card>
 );
 
 export function ProfileCard() {
@@ -65,7 +67,7 @@ export function ProfileCard() {
     <Container fluid id="profile">
       <Row className="justify-content-center">
         <Col xs="auto">
-          <Box sx={{ width: 350 }}>
+          <Box>
             <Card
               variant="outlined"
               style={{
@@ -73,6 +75,7 @@ export function ProfileCard() {
                 background: "#121212",
                 color: "#f0f2f5",
                 borderRadius: 7,
+                minWidth: 325,
               }}
             >
               {card}

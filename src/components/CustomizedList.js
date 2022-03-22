@@ -24,6 +24,11 @@ import phpmyadmin from "./images/icons/phpmyadmin.png";
 import node from "./images/icons/node.png";
 import react from "./images/icons/react.png";
 import express from "./images/icons/express.png";
+import heroku from "./images/icons/heroku.png";
+import mongodb from "./images/icons/mongodb.png";
+import firebase from "./images/icons/firebase.png";
+import prolog from "./images/icons/prolog.png";
+import python from "./images/icons/python.png";
 
 const data1 = [
   { icon: <img src={Java} height={25} width={25} />, label: "Java" },
@@ -33,12 +38,14 @@ const data1 = [
   { icon: <img src={HTMLIcon} height={25} width={25} />, label: "HTML" },
   { icon: <img src={CSS} height={25} width={25} />, label: "CSS" },
   { icon: <img src={PHP} height={25} width={25} />, label: "PHP" },
+  { icon: <img src={python} height={25} width={25} />, label: "Python" },
+  { icon: <img src={prolog} height={25} width={25} />, label: "Prolog" },
 ];
 
 const data2 = [
   { icon: <img src={Java} height={25} width={25} />, label: "JavaFX" },
   { icon: <img src={github} height={25} width={25} />, label: "GitHub" },
-  { icon: <img src={gitlab} height={25} width={25} />, label: "GitLab" },
+  /*{ icon: <img src={gitlab} height={25} width={25} />, label: "GitLab" },*/
   { icon: <img src={mysql} height={25} width={25} />, label: "MySQL" },
   {
     icon: <img src={phpmyadmin} height={25} width={25} />,
@@ -47,6 +54,9 @@ const data2 = [
   { icon: <img src={node} height={25} width={25} />, label: "Node" },
   { icon: <img src={express} height={25} width={25} />, label: "Express" },
   { icon: <img src={react} height={25} width={25} />, label: "React" },
+  { icon: <img src={heroku} height={25} width={25} />, label: "Heroku" },
+  { icon: <img src={mongodb} height={25} width={25} />, label: "MongoDB" },
+  { icon: <img src={firebase} height={25} width={25} />, label: "Firebase" },
 ];
 
 const FireNav = styled(List)({

@@ -1,9 +1,10 @@
 import React from "react";
 import "../App.css";
-import { Button } from "./Button";
 import "./HeroSection.css";
 import { Link } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { Button } from "@mui/material";
+import "./pages/Buttons.css";
 
 function HeroSection() {
   return (
@@ -14,28 +15,29 @@ function HeroSection() {
       </div>
       <p>Check out my work.</p>
       <div className="hero-btns">
-        <Link to="/projects">
-          <Button
-            className="btns"
-            buttonStyle="btn--outline"
-            buttonSize="btn--large"
-          >
-            PROJECTS
-          </Button>
-        </Link>
-        <a
+        <Button
+          variant="outlined"
+          disableElevation
+          id="live-button"
+          component={Link}
+          to={{
+            pathname: "projects",
+          }}
+          style={{ marginRight: "1rem" }}
+        >
+          PROJECTS
+        </Button>
+        <Button
+          startIcon={<GitHubIcon />}
+          variant="outlined"
+          disableElevation
+          id="git-button"
           href="https://github.com/leobabakhanian"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button
-            className="btns"
-            buttonStyle="btn--primary"
-            buttonSize="btn--large"
-          >
-            <GitHubIcon id="github" /> GITHUB
-          </Button>
-        </a>
+          GITHUB
+        </Button>
       </div>
     </div>
   );

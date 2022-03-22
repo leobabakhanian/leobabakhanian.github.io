@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Button } from "../Button";
 import "./Projects.css";
 import googleclone from "../images/google-clone_2.jpg";
-import { Button as MUIButton } from "@mui/material";
+import { Button } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
+import "./Buttons.css";
 
 function GoogleClone() {
   return (
@@ -13,7 +13,7 @@ function GoogleClone() {
       <Row>
         <Col xs="auto">
           <Link to="/projects" id="back">
-            <MUIButton
+            <Button
               variant="contained"
               disableElevation
               startIcon={<ArrowBackIcon />}
@@ -24,7 +24,7 @@ function GoogleClone() {
               }}
             >
               BACK
-            </MUIButton>
+            </Button>
           </Link>
         </Col>
       </Row>
@@ -40,35 +40,28 @@ function GoogleClone() {
       </Row>
       <Row id="second-row">
         <Col xs="auto">
-          <a
+          <Button
+            variant="outlined"
+            disableElevation
+            id="live-button"
             href="https://clone-ac992.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button
-              className="btns"
-              buttonStyle="btn--primary"
-              buttonSize="btn--large"
-              id="button-first"
-            >
-              LIVE CODE
-            </Button>
-          </a>
+            LIVE CODE
+          </Button>
         </Col>
         <Col xs="auto">
-          <a
+          <Button
+            variant="outlined"
+            disableElevation
+            id="git-button"
             href="https://github.com/leobabakhanian/spotify-clone"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button
-              className="btns"
-              buttonStyle="btn--outline"
-              buttonSize="btn--large"
-            >
-              GITHUB LINK
-            </Button>
-          </a>
+            GITHUB LINK
+          </Button>
         </Col>
       </Row>
       <Row id="third-row">
@@ -88,7 +81,8 @@ function GoogleClone() {
       <Row id="fourth-row">
         <Col>
           <p>
-            Technology used: HTML, CSS, JavaScript, NPM, React, Firebase, MUI
+            Technology used: HTML, CSS, JavaScript, Node.js, React, Firebase,
+            MUI
           </p>
         </Col>
       </Row>

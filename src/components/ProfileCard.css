@@ -1,9 +1,10 @@
 #card__name {
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #card__contact {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 #card__contact a {
@@ -15,12 +16,7 @@
   text-decoration: underline;
 }
 
-#card__bio {
-}
-
 #divider {
-  margin-top: 5px;
-  margin-bottom: 5px;
   margin-left: -5px;
   margin-right: -5px;
 }
@@ -41,5 +37,13 @@
 }
 
 .profile-right {
-  padding-left: 205px;
+  right: 0;
+  position: absolute;
+  padding-right: 5px;
+  padding-top: -10px;
+}
+
+#card {
+  position: relative;
+  background-color: transparent;
 }
