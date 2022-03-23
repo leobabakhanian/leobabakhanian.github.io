@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3ea3022.chunk.css",
-    "main.js": "/static/js/main.1043d388.chunk.js",
-    "main.js.map": "/static/js/main.1043d388.chunk.js.map",
+    "main.css": "/static/css/main.1488e231.chunk.css",
+    "main.js": "/static/js/main.f44ed4ea.chunk.js",
+    "main.js.map": "/static/js/main.f44ed4ea.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba1596e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba1596e.js.map",
-    "static/js/2.e4c0b47f.chunk.js": "/static/js/2.e4c0b47f.chunk.js",
-    "static/js/2.e4c0b47f.chunk.js.map": "/static/js/2.e4c0b47f.chunk.js.map",
+    "static/js/2.f6289910.chunk.js": "/static/js/2.f6289910.chunk.js",
+    "static/js/2.f6289910.chunk.js.map": "/static/js/2.f6289910.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bfbf79903a507041caa749f92ef1a33b.js": "/precache-manifest.bfbf79903a507041caa749f92ef1a33b.js",
+    "precache-manifest.058bea4f865bd2c87a7420c318242685.js": "/precache-manifest.058bea4f865bd2c87a7420c318242685.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a3ea3022.chunk.css.map": "/static/css/main.a3ea3022.chunk.css.map",
-    "static/js/2.e4c0b47f.chunk.js.LICENSE.txt": "/static/js/2.e4c0b47f.chunk.js.LICENSE.txt",
+    "static/css/main.1488e231.chunk.css.map": "/static/css/main.1488e231.chunk.css.map",
+    "static/js/2.f6289910.chunk.js.LICENSE.txt": "/static/js/2.f6289910.chunk.js.LICENSE.txt",
     "static/media/apple-clone_1.jpg": "/static/media/apple-clone_1.a8fe5e42.jpg",
     "static/media/apple-clone_2.jpg": "/static/media/apple-clone_2.1dd2d6f9.jpg",
     "static/media/bayc_barca.jpg": "/static/media/bayc_barca.979098d9.jpg",
@@ -27,6 +27,8 @@
     "static/media/matapals_2.jpg": "/static/media/matapals_2.ee885a4a.jpg",
     "static/media/message-board_1.jpg": "/static/media/message-board_1.a00cb773.jpg",
     "static/media/message-board_2.jpg": "/static/media/message-board_2.963e9160.jpg",
+    "static/media/movie-mania_1.jpg": "/static/media/movie-mania_1.a7ab479b.jpg",
+    "static/media/movie-mania_2.jpg": "/static/media/movie-mania_2.ab9a123f.jpg",
     "static/media/phoenixpoint_1.jpg": "/static/media/phoenixpoint_1.1391fc37.jpg",
     "static/media/phoenixpoint_2.jpg": "/static/media/phoenixpoint_2.0f699f8a.jpg",
     "static/media/phoenixpoint_3.jpg": "/static/media/phoenixpoint_3.fa199745.jpg",
@@ -44,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4ba1596e.js",
-    "static/js/2.e4c0b47f.chunk.js",
-    "static/css/main.a3ea3022.chunk.css",
-    "static/js/main.1043d388.chunk.js"
+    "static/js/2.f6289910.chunk.js",
+    "static/css/main.1488e231.chunk.css",
+    "static/js/main.f44ed4ea.chunk.js"
   ]
 }
