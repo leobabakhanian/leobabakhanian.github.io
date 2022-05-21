@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.5795f8af.chunk.css",
-    "main.js": "/static/js/main.cc1a8a4f.chunk.js",
-    "main.js.map": "/static/js/main.cc1a8a4f.chunk.js.map",
+    "main.js": "/static/js/main.5b07129b.chunk.js",
+    "main.js.map": "/static/js/main.5b07129b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba1596e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba1596e.js.map",
     "static/js/2.9123886e.chunk.js": "/static/js/2.9123886e.chunk.js",
     "static/js/2.9123886e.chunk.js.map": "/static/js/2.9123886e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7040bce1c10f47763db443255ef41567.js": "/precache-manifest.7040bce1c10f47763db443255ef41567.js",
+    "precache-manifest.f29df82e036294759dd354b7a8eca6ec.js": "/precache-manifest.f29df82e036294759dd354b7a8eca6ec.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5795f8af.chunk.css.map": "/static/css/main.5795f8af.chunk.css.map",
     "static/js/2.9123886e.chunk.js.LICENSE.txt": "/static/js/2.9123886e.chunk.js.LICENSE.txt",
     "static/media/apple-clone_1.jpg": "/static/media/apple-clone_1.a8fe5e42.jpg",
     "static/media/apple-clone_2.jpg": "/static/media/apple-clone_2.1dd2d6f9.jpg",
-    "static/media/bayc_barca.jpg": "/static/media/bayc_barca.979098d9.jpg",
+    "static/media/avatar.jpg": "/static/media/avatar.86644162.jpg",
     "static/media/calculator_1.jpg": "/static/media/calculator_1.824e22b3.jpg",
     "static/media/calculator_2.jpg": "/static/media/calculator_2.ea89da0f.jpg",
     "static/media/google-clone_1.jpg": "/static/media/google-clone_1.b3f491ac.jpg",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.4ba1596e.js",
     "static/js/2.9123886e.chunk.js",
     "static/css/main.5795f8af.chunk.css",
-    "static/js/main.cc1a8a4f.chunk.js"
+    "static/js/main.5b07129b.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9eacbe3ebe0d902b9f27c9d6128e59d0",
+    "revision": "0cb7b0694192c362cf8231f06318c96c",
     "url": "/index.html"
   },
   {
-    "revision": "58e2aae46462e4f50725",
+    "revision": "7d51651f80033d87af3a",
     "url": "/static/css/main.5795f8af.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9123886e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58e2aae46462e4f50725",
-    "url": "/static/js/main.cc1a8a4f.chunk.js"
+    "revision": "7d51651f80033d87af3a",
+    "url": "/static/js/main.5b07129b.chunk.js"
   },
   {
     "revision": "6fc4f2c3fd5ae8d05fd1",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/apple-clone_2.1dd2d6f9.jpg"
   },
   {
-    "revision": "979098d9e96d64e73b5e443e02ef2dbc",
-    "url": "/static/media/bayc_barca.979098d9.jpg"
+    "revision": "86644162f096947c168b058c8eb3aea2",
+    "url": "/static/media/avatar.86644162.jpg"
   },
   {
     "revision": "824e22b30e390dee687a9e54c871e230",
