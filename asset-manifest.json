@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.ad31aa36.chunk.css",
-    "main.js": "/static/js/main.68ae5146.chunk.js",
-    "main.js.map": "/static/js/main.68ae5146.chunk.js.map",
+    "main.js": "/static/js/main.0946c262.chunk.js",
+    "main.js.map": "/static/js/main.0946c262.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba1596e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba1596e.js.map",
     "static/js/2.ac1627c0.chunk.js": "/static/js/2.ac1627c0.chunk.js",
     "static/js/2.ac1627c0.chunk.js.map": "/static/js/2.ac1627c0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cfdc7ab8c21f7e74a992acf8826e81d8.js": "/precache-manifest.cfdc7ab8c21f7e74a992acf8826e81d8.js",
+    "precache-manifest.9c18caa5784c113503375910418d32ae.js": "/precache-manifest.9c18caa5784c113503375910418d32ae.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ad31aa36.chunk.css.map": "/static/css/main.ad31aa36.chunk.css.map",
     "static/js/2.ac1627c0.chunk.js.LICENSE.txt": "/static/js/2.ac1627c0.chunk.js.LICENSE.txt",
-    "static/media/Resume.pdf": "/static/media/Resume.f75d7647.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.f6f87d8c.pdf",
     "static/media/apple-clone_1.jpg": "/static/media/apple-clone_1.a8fe5e42.jpg",
     "static/media/apple-clone_2.jpg": "/static/media/apple-clone_2.1dd2d6f9.jpg",
     "static/media/avatar.jpg": "/static/media/avatar.86644162.jpg",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.4ba1596e.js",
     "static/js/2.ac1627c0.chunk.js",
     "static/css/main.ad31aa36.chunk.css",
-    "static/js/main.68ae5146.chunk.js"
+    "static/js/main.0946c262.chunk.js"
   ]
 }
