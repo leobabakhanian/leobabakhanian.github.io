@@ -2,7 +2,12 @@ import React from "react";
 import Header from "./components/Header";
 import "./App.css";
 import Home from "./components/pages/Home";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import {
+	HashRouter as Router,
+	Switch,
+	Route,
+	Redirect,
+} from "react-router-dom";
 import Projects from "./components/pages/Projects";
 import More from "./components/pages/More";
 import About from "./components/pages/About";
@@ -18,35 +23,38 @@ import MessageBoard from "./components/pages/MessageBoard";
 import LCrypt from "./components/pages/LCrypt";
 import Todo from "./components/pages/Todo";
 import PhoenixPoint from "./components/pages/PhoenixPoint";
+import MovieMania from "./components/pages/MovieMania";
 
 function App() {
-  return (
-    <Router>
-      <Header />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/projects" exact component={Projects} />
-        <Route path="/more" exact component={More} />
-        <Route path="/about" exact component={About} />
-        <Route path="/lcrypt" exact component={LCrypt} />
-        <Route path="/matapals" exact component={MataPals} />
-        <Route path="/tic-tac-toe" exact component={TicTacToe} />
-        <Route path="/transfermarket" exact component={TransferMarket} />
-        <Route path="/message-board" exact component={MessageBoard} />
-        <Route path="/apple-clone" exact component={AppleClone} />
-        <Route path="/spotify-clone" exact component={SpotifyClone} />
-        <Route path="/phoenix-point" exact component={PhoenixPoint} />
-        <Route path="/google-clone" exact component={GoogleClone} />
-        <Route path="/to-do-list" exact component={Todo} />
-        <Route path="/login-system" exact component={LoginSystem} />
-        <Route
-          path="/scientific-calculator"
-          exact
-          component={ScientificCalculator}
-        />
-      </Switch>
-    </Router>
-  );
+	return (
+		<Router>
+			<Header />
+			<Switch>
+				<Route path="/" exact component={Home} />
+				<Route path="/projects" exact component={Projects} />
+				<Route path="/more" exact component={More} />
+				<Route path="/about" exact component={About} />
+				<Route path="/lcrypt" exact component={LCrypt} />
+				<Route path="/matapals" exact component={MataPals} />
+				<Route path="/tic-tac-toe" exact component={TicTacToe} />
+				<Route path="/transfermarket" exact component={TransferMarket} />
+				<Route path="/message-board" exact component={MessageBoard} />
+				<Route path="/apple-clone" exact component={AppleClone} />
+				<Route path="/spotify-clone" exact component={SpotifyClone} />
+				<Route path="/phoenix-point" exact component={PhoenixPoint} />
+				<Route path="/google-clone" exact component={GoogleClone} />
+				<Route path="/to-do-list" exact component={Todo} />
+				<Route path="/login-system" exact component={LoginSystem} />
+				<Route path="/movie-mania" exact component={MovieMania} />
+				<Route
+					path="/scientific-calculator"
+					exact
+					component={ScientificCalculator}
+				/>
+				<Redirect to="/" />
+			</Switch>
+		</Router>
+	);
 }
 
 export default App;

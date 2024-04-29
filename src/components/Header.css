@@ -9,7 +9,7 @@
 }
 
 #nav-btn {
-  text-decoration: inherit !important;
+  text-decoration: none !important;
   color: #d7d7d7;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;

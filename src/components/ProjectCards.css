@@ -1,15 +1,23 @@
 #card-link {
-  text-decoration: inherit;
+	text-decoration: inherit;
 }
 
 #card-link {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .projects-container {
-  margin-top: 35px;
+	margin-top: 35px;
 }
 
 #view {
-  text-decoration: inherit;
+	text-decoration: inherit;
+}
+
+.cards {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: #282424;
+	color: #f0f2f5;
 }

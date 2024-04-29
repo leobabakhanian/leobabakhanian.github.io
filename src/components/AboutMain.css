@@ -13,6 +13,10 @@
   padding: 20px 15px 5px;
 }
 
+#greeting{
+  text-align: center !important;
+}
+
 #about-bio {
   padding-left: 6%;
   padding-right: 6%;

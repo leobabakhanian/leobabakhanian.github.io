@@ -2,11 +2,7 @@ import React from "react";
 import MoreProjectCards from "../MoreProjectCards";
 
 function More() {
-  return (
-    <>
-      <MoreProjectCards />
-    </>
-  );
+	return <MoreProjectCards />;
 }
 
 export default More;
