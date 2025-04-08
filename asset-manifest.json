@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.911ebe80.css",
-    "main.js": "/static/js/main.adbc7781.js",
+    "main.js": "/static/js/main.3a968cf1.js",
     "static/media/login_1.jpg": "/static/media/login_1.f1fffbd4891b3db7bcb6.jpg",
     "static/media/transfermarket_2.jpg": "/static/media/transfermarket_2.2e442480a4ff28f49fa0.jpg",
     "static/media/movie-mania_2.jpg": "/static/media/movie-mania_2.1e7bf7b2a84a2d0ea8fc.jpg",
@@ -12,9 +12,9 @@
     "static/media/message-board_1.jpg": "/static/media/message-board_1.94fb468a16128b1735b7.jpg",
     "static/media/google-clone_2.jpg": "/static/media/google-clone_2.fce737d9c121f991b674.jpg",
     "static/media/spotify-clone_2.jpg": "/static/media/spotify-clone_2.e630758b911e110976e0.jpg",
-    "static/media/Resume.pdf": "/static/media/Resume.6b3859987e1dcac5a40c.pdf",
     "static/media/matapals_2.jpg": "/static/media/matapals_2.b8158ce8fadca24e194e.jpg",
     "static/media/message-board_2.jpg": "/static/media/message-board_2.a12819b448a01505c86b.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.4b6dc18914e14f373f8d.pdf",
     "static/media/calculator_1.jpg": "/static/media/calculator_1.ae07db2dd8d0167cdb2a.jpg",
     "static/media/apple-clone_2.jpg": "/static/media/apple-clone_2.c1616b614c878668c2a0.jpg",
     "static/media/spotify-clone_1.jpg": "/static/media/spotify-clone_1.8dce97c30f1f5a0812bd.jpg",
@@ -36,10 +36,10 @@
     "static/media/logo-wide.png": "/static/media/logo-wide.1def820978cfae9a2c35.png",
     "index.html": "/index.html",
     "main.911ebe80.css.map": "/static/css/main.911ebe80.css.map",
-    "main.adbc7781.js.map": "/static/js/main.adbc7781.js.map"
+    "main.3a968cf1.js.map": "/static/js/main.3a968cf1.js.map"
   },
   "entrypoints": [
     "static/css/main.911ebe80.css",
-    "static/js/main.adbc7781.js"
+    "static/js/main.3a968cf1.js"
   ]
 }
