@@ -30,7 +30,7 @@ function MataPals() {
 			</Row>
 			<Row className="justify-content-center" id="first-row">
 				<Col>
-					<h1>MataPals (In progress)</h1>
+					<h1>MataPals</h1>
 					<p>A web app for CSUN students to connect with each other.</p>
 					<img src={matapals} alt="" />
 				</Col>
